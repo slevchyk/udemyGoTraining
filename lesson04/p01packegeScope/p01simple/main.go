@@ -6,8 +6,8 @@ var x = 42
 
 func main()  {
 
-	fmt.Println(x);
-	foo();
+	fmt.Println(x)
+	foo()
 }
 
 func foo()  {

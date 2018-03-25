@@ -4,5 +4,5 @@ import "fmt"
 
 func PrintFirstName() {
 
-	fmt.Println(firstName);
+	fmt.Println(firstName)
 }

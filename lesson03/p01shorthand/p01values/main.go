@@ -4,7 +4,7 @@ import "fmt"
 
 func main()  {
 
-	a := 10;
+	a := 10
 	b := "goLand"
 	c := 4.76
 	d := true
