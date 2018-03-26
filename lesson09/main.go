@@ -1,4 +1,4 @@
-package lesson09
+package main
 
 import "fmt"
 
