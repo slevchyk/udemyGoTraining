@@ -10,6 +10,6 @@ func main() {
 	fmt.Scanln(&didgit)
 
 	if char := string(didgit); char == "a" {
-		fmt.Println("Yes, it's a code")
+		fmt.Println("Yes, it's 'a' code")
 	}
 }
