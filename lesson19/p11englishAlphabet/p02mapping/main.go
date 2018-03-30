@@ -27,20 +27,15 @@ func main() {
 
 	for sc.Scan() {
 		word := sc.Text()
-		words[hashSHA1(word)] = append(words[hashSHA1(word)], word)
+		hash := hashSHA1(word)
+		words[hash] = append(words[hash], word)
 	}
 
 	if err := sc.Err(); err != nil {
 		fmt.Fprintln(os.Stderr, "reading input: ", err)
 	}
 
-	i := 0
 	for key, val := range words {
-		if i == 200 {
-			break
-		}
-		i++
-
 		fmt.Println(key, val)
 	}
 }
