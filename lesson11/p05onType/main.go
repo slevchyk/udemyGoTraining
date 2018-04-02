@@ -4,10 +4,10 @@ import "fmt"
 
 type Contact struct {
 	greeting string
-	name string
+	name     string
 }
 
-func SwitchOnType(x interface{})  {
+func SwitchOnType(x interface{}) {
 
 	switch x.(type) {
 	case int:
@@ -19,10 +19,10 @@ func SwitchOnType(x interface{})  {
 	default:
 		fmt.Println(x, " - Unknown")
 	}
-	
+
 }
 
-func main()  {
+func main() {
 
 	SwitchOnType(7)
 	SwitchOnType("Hello")
@@ -31,4 +31,3 @@ func main()  {
 	SwitchOnType(serhii)
 
 }
-

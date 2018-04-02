@@ -6,7 +6,7 @@ func main() {
 
 	var age int
 	age = 31
-	
+
 	fmt.Println(age)
 	fmt.Println(&age)
 

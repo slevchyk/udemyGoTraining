@@ -9,7 +9,7 @@ func main() {
 	for i := 0; i < 3; i++ {
 		transaction := make([]int, 0)
 		for j := 0; j < 4; j++ {
-			transaction = append(transaction, i + j)
+			transaction = append(transaction, i+j)
 		}
 		records = append(records, transaction)
 	}

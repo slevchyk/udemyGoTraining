@@ -10,7 +10,7 @@ func (x Square) area() float64 {
 	return x.side * x.side
 }
 
-func main()  {
+func main() {
 
 	x := Square{10}
 	fmt.Println(x.side)

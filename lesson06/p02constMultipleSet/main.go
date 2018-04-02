@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 const (
-	coPi = 3.14
+	coPi   = 3.14
 	coName = "Serhii Levchyl"
 )
 

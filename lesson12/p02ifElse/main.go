@@ -6,7 +6,7 @@ func main() {
 
 	var age int
 
-	fmt.Print("Enter your age: " )
+	fmt.Print("Enter your age: ")
 	fmt.Scanln(&age)
 
 	if age < 10 {

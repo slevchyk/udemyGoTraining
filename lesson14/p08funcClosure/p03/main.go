@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 
 	var x int
 
 	increment := func() int {
 		x++
-		return  x
+		return x
 	}
 
 	fmt.Println(increment())

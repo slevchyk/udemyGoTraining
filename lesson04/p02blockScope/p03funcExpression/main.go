@@ -2,15 +2,15 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 
-	x := 10;
+	x := 10
 
-	increment := func() int{
-		x++;
-		return x;
+	increment := func() int {
+		x++
+		return x
 	}
 
-	fmt.Println(increment());
-	fmt.Println(increment());
+	fmt.Println(increment())
+	fmt.Println(increment())
 }

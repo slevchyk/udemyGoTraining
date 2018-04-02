@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	var myGreeting= make(map[string]string)
+	var myGreeting = make(map[string]string)
 
 	myGreeting["En"] = "Hello"
 	myGreeting["Uk"] = "Привіт"

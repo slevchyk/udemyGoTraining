@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-func main ()  {
+func main() {
 
-	if true{
+	if true {
 		fmt.Println("This ran")
 	}
 
-	if false{
+	if false {
 		fmt.Println("This not ran")
 	}
 

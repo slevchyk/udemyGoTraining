@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 
 	x := 31
 	fmt.Println(x)

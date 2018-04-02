@@ -14,12 +14,12 @@ type Shape interface {
 	area() float64
 }
 
-func info (x Shape) {
+func info(x Shape) {
 	fmt.Printf("Type is %T\n", x)
 	fmt.Println("Area is", x.area())
 }
 
-func main()  {
+func main() {
 
 	s := Square{10}
 

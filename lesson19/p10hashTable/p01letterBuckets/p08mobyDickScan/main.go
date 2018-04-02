@@ -3,9 +3,9 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"os"
-	"net/http"
 	"log"
+	"net/http"
+	"os"
 )
 
 func main() {

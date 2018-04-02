@@ -4,18 +4,18 @@ import "fmt"
 
 func wrapper() func() int {
 
-	x := 10;
+	x := 10
 
-	return func() int{
-		x++;
-		return x;
+	return func() int {
+		x++
+		return x
 	}
 }
 
 func main() {
 
-	increment := wrapper();
+	increment := wrapper()
 
-	fmt.Println(increment());
-	fmt.Println(increment());
+	fmt.Println(increment())
+	fmt.Println(increment())
 }

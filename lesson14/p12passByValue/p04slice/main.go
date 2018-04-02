@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 
 	person := make([]string, 2, 25)
 
@@ -14,7 +14,7 @@ func main()  {
 	fmt.Println(person)
 }
 
-func changeMe(x []string)  {
+func changeMe(x []string) {
 
 	x[0] = "Andrii"
 }

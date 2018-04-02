@@ -13,7 +13,7 @@ func main() {
 		ukKey: "Привіт",
 		frKey: "Salut"}
 
-	for key, val := range  myGreeting{
+	for key, val := range myGreeting {
 		fmt.Println("key: ", key, " - val:", val)
 	}
 }

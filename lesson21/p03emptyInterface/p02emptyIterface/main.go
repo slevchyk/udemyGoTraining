@@ -2,28 +2,28 @@ package main
 
 import "fmt"
 
-type vehicles interface {}
+type vehicles interface{}
 
 type vehicle struct {
-	Seats int
+	Seats    int
 	MaxSpeed int
-	Color string
+	Color    string
 }
 
 type car struct {
 	Vehicle vehicle
-	Doors int
-	Wheels int
+	Doors   int
+	Wheels  int
 }
 
 type plane struct {
 	Vehicle vehicle
-	Jet bool
+	Jet     bool
 }
 
 type boat struct {
 	Vehicle vehicle
-	Length int
+	Length  int
 }
 
 func main() {
@@ -42,7 +42,7 @@ func main() {
 
 	rides := []vehicles{bmw, audi, vw, boeing747, airbus320, an148, sanger, nautique, malibu}
 
-	for key, value := range rides{
+	for key, value := range rides {
 		fmt.Println(key, " - ", value)
 	}
 }

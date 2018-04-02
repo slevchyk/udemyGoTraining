@@ -1,13 +1,13 @@
 package main
 
 import (
+	"bufio"
+	"crypto/sha1"
+	"encoding/base64"
 	"fmt"
 	"log"
 	"net/http"
-	"bufio"
 	"os"
-	"crypto/sha1"
-	"encoding/base64"
 )
 
 func main() {

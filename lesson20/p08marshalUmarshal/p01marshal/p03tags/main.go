@@ -6,9 +6,9 @@ import (
 )
 
 type Person struct {
-	First       string
-	Last        string `json:"-"`
-	Age         int `json:"wisdom score"`
+	First string
+	Last  string `json:"-"`
+	Age   int    `json:"wisdom score"`
 }
 
 func main() {

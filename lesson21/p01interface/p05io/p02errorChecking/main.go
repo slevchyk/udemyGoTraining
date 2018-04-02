@@ -1,12 +1,12 @@
 package main
 
 import (
-	"strings"
-	"io"
-	"os"
 	"bytes"
-	"net/http"
 	"fmt"
+	"io"
+	"net/http"
+	"os"
+	"strings"
 )
 
 func main() {
@@ -15,24 +15,24 @@ func main() {
 
 	rdr1 := strings.NewReader(msg)
 	_, err := io.Copy(os.Stdout, rdr1)
-	if err != nil{
+	if err != nil {
 		fmt.Println(err)
 	}
 
 	rdr2 := bytes.NewBuffer([]byte(msg))
 	_, err = io.Copy(os.Stdout, rdr2)
-	if err != nil{
+	if err != nil {
 		fmt.Println(err)
 	}
 
 	resp, err := http.Get("https://dou.ua/calendar/20240/")
 	defer resp.Body.Close()
-	if err != nil{
+	if err != nil {
 		fmt.Println(err)
 	}
 
 	_, err = io.Copy(os.Stdout, resp.Body)
-	if err != nil{
+	if err != nil {
 		fmt.Println(err)
 	}
 }

@@ -7,8 +7,8 @@ import (
 
 type Person struct {
 	First string
-	Last string
-	Age int
+	Last  string
+	Age   int
 }
 
 func main() {
@@ -23,4 +23,3 @@ func main() {
 	fmt.Println(p1)
 	fmt.Printf("%T\n", p1)
 }
-

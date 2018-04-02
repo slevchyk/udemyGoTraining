@@ -1,8 +1,8 @@
 package main
 
 import (
-	"math"
 	"fmt"
+	"math"
 )
 
 type circle struct {
@@ -17,7 +17,7 @@ type Shape interface {
 	Area() float64
 }
 
-func info(s Shape)  {
+func info(s Shape) {
 	fmt.Println(s, s.Area())
 }
 

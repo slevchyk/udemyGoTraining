@@ -1,11 +1,11 @@
 package main
 
 import (
-	"strings"
-	"io"
-	"os"
 	"bytes"
+	"io"
 	"net/http"
+	"os"
+	"strings"
 )
 
 func main() {

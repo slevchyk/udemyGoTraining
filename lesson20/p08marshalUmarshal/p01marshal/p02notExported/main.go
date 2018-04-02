@@ -6,9 +6,9 @@ import (
 )
 
 type Person struct {
-	first       string
-	last        string
-	age         int
+	first string
+	last  string
+	age   int
 }
 
 func main() {

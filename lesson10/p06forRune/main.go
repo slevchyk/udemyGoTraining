@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	for i := 32; i < 150; i++{
+	for i := 32; i < 150; i++ {
 		fmt.Println(i, " - ", string(i), " - ", []byte(string(i)))
 	}
 

@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 type person struct {
-	first string
+	first  string
 	second string
-	age	int
+	age    int
 }
 
 func main() {
@@ -15,6 +15,5 @@ func main() {
 
 	fmt.Println(me.first, me.second, me.age)
 	fmt.Println(she.first, she.second, she.age)
-
 
 }

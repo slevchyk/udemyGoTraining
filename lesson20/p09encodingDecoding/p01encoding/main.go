@@ -2,8 +2,8 @@ package main
 
 import (
 	"encoding/json"
-	"os"
 	"fmt"
+	"os"
 )
 
 type Person struct {

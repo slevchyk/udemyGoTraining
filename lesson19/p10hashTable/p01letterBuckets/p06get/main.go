@@ -1,13 +1,13 @@
 package main
 
 import (
-	"net/http"
 	"fmt"
-	"log"
 	"io/ioutil"
+	"log"
+	"net/http"
 )
 
-func main()  {
+func main() {
 
 	res, err := http.Get("http://www.gutenberg.org/files/2701/2701-0.txt")
 

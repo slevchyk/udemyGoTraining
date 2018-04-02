@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/slevchyk/udemyGoTraining/lesson04/p01packegeScope/p02visibility/visibility"
 	"fmt"
+	"github.com/slevchyk/udemyGoTraining/lesson04/p01packegeScope/p02visibility/visibility"
 )
 
-func main()  {
+func main() {
 
 	visibility.PrintFirstName()
 	fmt.Println(visibility.SecondName)

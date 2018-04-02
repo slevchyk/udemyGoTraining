@@ -2,9 +2,9 @@ package main
 
 import "fmt"
 
-func do(nums []int, callback func(n int))  {
+func do(nums []int, callback func(n int)) {
 
-	for _, n := range nums{
+	for _, n := range nums {
 		callback(n)
 	}
 }

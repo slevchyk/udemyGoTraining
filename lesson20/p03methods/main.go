@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 type person struct {
-	first string
+	first  string
 	second string
-	age	int
+	age    int
 }
 
 func (p person) FullName() string {

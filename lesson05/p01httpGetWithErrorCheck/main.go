@@ -1,13 +1,13 @@
 package main
 
 import (
-	"net/http"
-	"log"
-	"io/ioutil"
 	"fmt"
+	"io/ioutil"
+	"log"
+	"net/http"
 )
 
-func main()  {
+func main() {
 
 	res, err := http.Get("https://twitter.com/")
 
@@ -25,4 +25,3 @@ func main()  {
 	fmt.Printf("%s", page)
 
 }
-

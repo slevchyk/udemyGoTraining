@@ -34,7 +34,7 @@ func totalArea(shapes ...Shape) float64 {
 
 	var totalArea float64
 
-	for _, val := range  shapes {
+	for _, val := range shapes {
 		totalArea += val.area()
 	}
 

@@ -8,7 +8,7 @@ func factorial(x int) int {
 		return 1
 	}
 
-	return x * factorial(x - 1)
+	return x * factorial(x-1)
 }
 
 func main() {

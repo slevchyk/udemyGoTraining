@@ -3,25 +3,25 @@ package main
 import "fmt"
 
 type vehicle struct {
-	Seats int
+	Seats    int
 	MaxSpeed int
-	Color string
+	Color    string
 }
 
 type car struct {
 	Vehicle vehicle
-	Doors int
-	Wheels int
+	Doors   int
+	Wheels  int
 }
 
 type plane struct {
 	Vehicle vehicle
-	Jet bool
+	Jet     bool
 }
 
 type boat struct {
 	Vehicle vehicle
-	Length int
+	Length  int
 }
 
 func main() {
@@ -29,7 +29,7 @@ func main() {
 	bmw := car{}
 	audi := car{}
 	vw := car{}
-	cars :=[]car{bmw, audi, vw}
+	cars := []car{bmw, audi, vw}
 
 	boeing747 := plane{}
 	airbus320 := plane{}
@@ -41,15 +41,15 @@ func main() {
 	malibu := boat{}
 	boats := []boat{sanger, nautique, malibu}
 
-	for key, value := range cars{
+	for key, value := range cars {
 		fmt.Println(key, " - ", value)
 	}
 
-	for key, value := range planes{
+	for key, value := range planes {
 		fmt.Println(key, " - ", value)
 	}
 
-	for key, value := range boats{
+	for key, value := range boats {
 		fmt.Println(key, " - ", value)
 	}
 

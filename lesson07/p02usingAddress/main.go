@@ -11,6 +11,6 @@ func main() {
 	fmt.Print("Enter length in inch:")
 	fmt.Scan(&inchLangth)
 
-	fmt.Println(inchLangth, " inch in cm is ", inchLangth * coInchToCm)
+	fmt.Println(inchLangth, " inch in cm is ", inchLangth*coInchToCm)
 
 }

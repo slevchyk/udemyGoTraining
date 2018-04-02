@@ -25,7 +25,6 @@ func main() {
 	jack := dog{animal{"Woof"}, true}
 	miclky := cat{animal{"Meow"}, false}
 
-
 	specs(jack)
 	specs(miclky)
 }
