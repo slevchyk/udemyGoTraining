@@ -15,5 +15,4 @@ func main() {
 
 	fmt.Printf("&T\n", val)
 	fmt.Printf("&T\n", val.(int))
-
 }
