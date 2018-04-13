@@ -6,10 +6,7 @@ import (
 
 func main() {
 
-	c := gen(3, 4)
-	out := sq(c)
-
-	for n := range out {
+	for n := range sq(sq(gen(3, 4))) {
 		fmt.Println(n)
 	}
 

@@ -33,6 +33,7 @@ _testmain.go
 
 #visual studio code
 .vscode/
+debug
 
 # mac hidden files
 #.DS_Store
