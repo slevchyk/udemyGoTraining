@@ -31,6 +31,9 @@ _testmain.go
 .idea/workspace.xml
 **/.idea/workspace.xml
 
+#visual studio code
+.vscode/
+
 # mac hidden files
 #.DS_Store
 
