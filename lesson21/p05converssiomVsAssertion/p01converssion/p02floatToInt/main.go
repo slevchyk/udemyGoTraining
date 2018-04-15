@@ -4,8 +4,11 @@ import "fmt"
 
 func main() {
 
-	var x int = 12
-	var y float64 = 12.128645
+	var x int
+	var y float64
+
+	x = 12
+	y = 12.123243
 
 	fmt.Println(x + int(y))
 }
