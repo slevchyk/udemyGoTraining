@@ -11,16 +11,18 @@ var publisherID int
 func main() {
 
 	input := make(chan string)
-	publisher(input)
-	publisher(input)
-	publisher(input)
-	workerProcess(input)
-	workerProcess(input)
-	workerProcess(input)
+	go workerProcess(input)
+	go workerProcess(input)
+	go workerProcess(input)
+	go publisher(input)
+	go publisher(input)
+	go publisher(input)
+	go publisher(input)
 	time.Sleep(1 * time.Millisecond)
 
 }
 
+// publisher pushes dadta to channel
 func publisher(out chan string) {
 	publisherID++
 	thisID := publisherID
@@ -28,12 +30,13 @@ func publisher(out chan string) {
 
 	for {
 		dataID++
-		fmt.Printf("publisher %d is pushing dara\n", thisID)
+		fmt.Printf("publisher %d is pushing data\n", thisID)
 		data := fmt.Sprintf("Data from publisher %d. Data %d", thisID, dataID)
 		out <- data
 	}
 }
 
+// workerProcess reading data from channel
 func workerProcess(in <-chan string) {
 	workerID++
 	thisID := workerID
