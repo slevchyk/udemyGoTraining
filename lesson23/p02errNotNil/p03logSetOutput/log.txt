@@ -1,0 +1,4 @@
+2018/04/15 21:26:02 err happened open no-file.txt: no such file or directory
+2018/04/15 21:28:35 err happened open no-file.txt: no such file or directory
+2018/04/15 21:28:36 err happened open no-file.txt: no such file or directory
+2018/04/15 21:28:36 err happened open no-file.txt: no such file or directory
